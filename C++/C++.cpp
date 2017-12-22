@@ -7,7 +7,6 @@
 //
 
 #include <iostream>
-#include "C++.hpp"
 
 int main(int argc, const char * argv[]) {
     std::cout << "Across the Great Wall we can reach every corner in the world." << std::endl;

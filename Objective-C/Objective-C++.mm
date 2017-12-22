@@ -1,6 +1,6 @@
 //
-//  Objective-C.m
-//  Objective-C
+//  Objective-C++.mm
+//  Objective-C++
 //
 //  Created by Jarry Shaw on 12/22/2017.
 //  Copyright © 2017 Jarry Shaw. All rights reserved.
