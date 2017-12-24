@@ -1,1 +1,1 @@
-(write-line "Across the Great Wall we can reach every corner in the world.")
+(write-line "Across the Great Wall, we can reach every corner in the world.")

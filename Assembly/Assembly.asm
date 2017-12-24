@@ -13,6 +13,6 @@ section .text
 
 section .data
     ;string to be printed
-    msg db 'Across the Great Wall we can reach every corner in the world.', 0xa
+    msg db 'Across the Great Wall, we can reach every corner in the world.', 0xa
     ;length of the string
     len equ $ - msg

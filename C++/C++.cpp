@@ -9,6 +9,6 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    std::cout << "Across the Great Wall we can reach every corner in the world." << std::endl;
+    std::cout << "Across the Great Wall, we can reach every corner in the world." << std::endl;
     return 0;
 }

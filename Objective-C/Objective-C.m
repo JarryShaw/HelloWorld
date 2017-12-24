@@ -10,7 +10,7 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSLog(@"Across the Great Wall we can reach every corner in the world.");
+        NSLog(@"Across the Great Wall, we can reach every corner in the world.");
     }
     return 0;
 }
