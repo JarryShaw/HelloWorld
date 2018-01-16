@@ -18,6 +18,10 @@ assembly:
 	ld -m elf_i386 -s -o assembly *.o
 	assembly
 
+basic:
+	cd BASIC/
+	bwbasic BASIC.bac
+
 befunge:
 	cd Befunge/
 	utilities/befunge-93/bin/bef Befunge.be
@@ -50,6 +54,10 @@ cobol:
 	cobc -c -free -x COBOL.cobol
 	cobc -x -o cobol COBOL.o
 	cobol
+
+coffeescript:
+	cd CoffeeScript/
+	coffee CoffeeScript.coffee
 
 d:
 	cd D/
@@ -92,6 +100,7 @@ java:
 javascript:
 	cd JavaScript/
 	node Node.js
+	node JSFuck.js
 
 lisp:
 	cd Lisp/
@@ -116,6 +125,10 @@ pascal:
 perl:
 	cd Perl/
 	perl Perl.pl
+
+php:
+	cd PHP/
+	php PHP.php
 
 python:
 	cd Python/
