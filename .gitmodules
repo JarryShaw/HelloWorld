@@ -1,0 +1,24 @@
+[submodule "Befunge/vendor"]
+	path = Befunge/vendor
+	url = https://github.com/catseye/Befunge-93
+[submodule "Commata/vendor"]
+	path = Commata/vendor
+	url = https://github.com/totallyhuman/commata
+[submodule "05AB1E/vendor"]
+	path = 05AB1E/vendor
+	url = https://github.com/Adriandmen/05AB1E
+[submodule "2DFuck/vendor"]
+	path = 2DFuck/vendor
+	url = https://gitlab.com/TheWastl/2DFuck
+[submodule "2sable/vendor"]
+	path = 2sable/vendor
+	url = https://github.com/Adriandmen/2sable
+[submodule "3var/vendor"]
+	path = 3var/vendor
+	url = https://github.com/olls/3var-interpreter
+[submodule "4/vendor/py-four"]
+	path = 4/vendor/py-four
+	url = https://github.com/urielieli/py-four
+[submodule "99/vendor"]
+	path = 99/vendor
+	url = https://github.com/TryItOnline/99

@@ -6,6 +6,8 @@
 
 &emsp; Hence differences among compiling, we intend to, as making this project work, follow these primary rules below:
 
+ > Files named with `NotImplemented` are samples with `Hello, world!`.
+
 1. All programs are to print the following sentence, "`Across the Great Wall, we can reach every corner in the world.`", which is exactly the content of China's first email back in 1987.
 
 2. Always choose the **simplest** way to implement.
