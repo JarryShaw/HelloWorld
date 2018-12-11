@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-docker build --tag HelloWorld .
-docker run -it HelloWorld:latest
+docker build --force-rm --tag HelloWorld .
+docker run -it --rm HelloWorld:latest
