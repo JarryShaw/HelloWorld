@@ -22,3 +22,6 @@
 [submodule "99/vendor"]
 	path = 99/vendor
 	url = https://github.com/TryItOnline/99
+[submodule "AsciiDots/vendor"]
+	path = AsciiDots/vendor
+	url = https://github.com/aaronduino/asciidots

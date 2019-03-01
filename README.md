@@ -19,3 +19,52 @@
 5. Add compiling command to `Makefile` after new language attached (optional).
 
 &emsp; So, this is what we do. If you would like to contribute, do follow the rules above. And great thanks anyway :)
+
+------
+
+- 2DFuck
+- 2sable
+- 3var
+- 4
+- 05AB1E
+- 7
+- 99
+- AppleScript
+- Arnoldc
+- AsciiDots
+- Assembly
+- BASIC
+- Befunge
+- Brainfuck
+- C
+- C++
+- Clojure
+- COBOL
+- CoffeeScript
+- Commata
+- C#
+- D
+- Erlang
+- Fortran
+- F#
+- Go
+- Groovy
+- Haskell
+- Java
+- JavaScript
+- Lisp
+- MATLAB
+- Objective-C
+- Pascal
+- Perl
+- PHP
+- Python
+- R
+- Rexx
+- Ruby
+- Scala
+- Shell
+- Slashes
+- SQL
+- Swift
+- Verilog

@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
+set -e
+
 file="$1"
-name="test-${file}"
+name="temp-${file}"
 
 version=$( python --version 2>&1 | grep "Python 2.*.*" )
 if [[ -z ${version} ]] ; then

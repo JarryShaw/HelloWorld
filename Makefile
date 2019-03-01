@@ -1,166 +1,156 @@
-.PHONY: makefile
+.PHONY: 2dfuck 2sable 3var 4 05ab1e 7 99 \
+		applescript arnoldc asciidots assembly \
+		basic befunge brainfuck \
+		c cs c++ clojure cobol coffeescript commata \
+		d \
+		erlang \
+		fs fortran \
+		go groovy \
+		haskell \
+		java javascript \
+		lisp \
+		matlab \
+		objective-c \
+		pascal \
+		perl php python \
+		r rexx ruby \
+		scala shell slashes swift \
+		verilog
 
-makefile:
-	echo "Across the Great Wall, we can reach every corner in the world."
+2dfuck:
+	cd 2DFuck && make compile
+
+2sable:
+	cd 2sable && make compile
+
+3var:
+	cd 3var && make compile
+
+4:
+	cd 4 && make compile
+
+05ab1e:
+	cd 05AB1E && make compile
+
+7:
+	echo "Compilation not supported yet."
+
+99:
+	echo "Compilation not supported yet."
+
+applescript:
+	cd AppleScript && make compile
 
 arnoldc:
-	cd Arnoldc/
-	java -jar utilities/ArnoldC.jar Arnoldc.arnoldc
-	java Arnoldc
+	cd Arnoldc && make compile
 
 asciidots:
-	cd AsciiDots/
-	asciidots AsciiDots.dots
+	cd AsciiDots && make compile
 
 assembly:
-	cd Assembly
-	nasm -f elf Assembly.asm
-	ld -m elf_i386 -s -o assembly *.o
-	assembly
+	cd Assembly && make compile
 
 basic:
-	cd BASIC/
-	bwbasic BASIC.bac
+	cd BASIC && make compile
 
 befunge:
-	cd Befunge/
-	utilities/befunge-93/bin/bef Befunge.be
+	cd Befunge && make compile
 
 brainfuck:
-	cd Brainfuck/
-	utilities/qdb Brainfuck.bf
+	cd Brainfuck && make compile
 
 c:
-	cd C/
-	gcc C.c -o c -lm -pthread -lgmp -lreadline
-	c
+	cd C && make compile
 
-csharp:
-	cd C#/
-	mcs C#.cs -out: csharp.exe
-	mono csharp.exe
+cs:
+	cd C# && make compile
 
 c++:
-	cd C++
-	g++ -std=c++11 C++.cpp -o cpp
-	cpp
+	cd C++ && make compile
 
 clojure:
-	cd Clojure/
-	java -jar utilities/clojure.jar -i Clojure.clj
+	cd Clojure && make compile
 
 cobol:
-	cd COBOL/
-	cobc -c -free -x COBOL.cobol
-	cobc -x -o cobol COBOL.o
-	cobol
+	cd COBOL && make compile
 
 coffeescript:
-	cd CoffeeScript/
-	coffee CoffeeScript.coffee
+	cd CoffeeScript && make compile
+
+commata:
+	cd Commata && make compile
 
 d:
-	cd D/
-	dmd -I./ D.d -of d.amx
-	d.amx
+	cd D && make compile
 
 erlang:
-	cd Erlang/
-	erlc Erlang.erl
-	erl -noshell -s Erlang start -s init stop
+	cd Erlang && make compile
 
-fsharp:
-	cd F#/
-	fs F#.fs --out: fsharp.exe
-	mono fsharp.exe
+fs:
+	cd F# && make compile
 
 fortran:
-	cd Fortran/
-	gfortran -std=f95 Fortran.f95 -o fortran
-	fortran
+	cd Fortran && make compile
 
 go:
-	cd Go/
-	go run Go.go
+	cd Go && make compile
 
 groovy:
-	cd Groovy/
-	groovy Groovy.groovy
+	cd Groovy && make compile
 
 haskell:
-	cd Haskell/
-	ghc -O2 --make Haskell.hs -o haskell -threaded -rtsopts
-	haskell
+	cd Haskell && make compile
 
 java:
-	cd Java/
-	javac Java.java
-	java Java
+	cd Java && make compile
 
 javascript:
-	cd JavaScript/
-	node Node.js
-	node JSFuck.js
+	cd JavaScript && make compile
 
 lisp:
-	cd Lisp/
-	clisp Lisp.lisp
+	cd Lisp && make compile
 
 matlab:
-	cd MATLAB/
-	octave -qf --no-window-system MATLAB.m
+	cd MATLAB && make compile
 
-objc:
-	cd Objective-C/
-	clang -framework Foundation -o objc Objective-C.m
-	clang -framework Foundation -o objcpp Objective-C++.mm
-	objc
-	objcpp
+objective-c:
+	cd Objective-C && make compile
 
 pascal:
-	cd Pascal/
-	fpc -v0 Pascal.pas
-	Pascal
+	cd Pascal && make compile
 
 perl:
-	cd Perl/
-	perl Perl.pl
+	cd Perl && make compile
 
 php:
-	cd PHP/
-	php PHP.php
+	cd PHP && make compile
 
 python:
-	cd Python/
-	python Python.py
-	python3 Python3.py
+	cd Python && make compile
 
 r:
-	cd R/
-	Rscript R.r
+	cd R && make compile
 
 rexx:
-	cd Rexx/
-	rexx Rexx.rexx
+	cd Rexx && make compile
 
 ruby:
-	cd Ruby/
-	ruby Ruby.rb
+	cd Ruby && make compile
 
 scala:
-	cd Scala/
-	scalac Scala.scala
-	scala -classpath . Scala
+	cd Scala && make compile
 
 shell:
-	cd Shell/
-	bash Bourne-Again\ Shell.bash
-	csh C\ Shell.csh
-	ksh Korn\ Shell.ksh
-	sh Shell.sh
-	tcsh Tenex\ C\ Shell.tcsh
-	zsh Z\ Shell.zsh
+	cd Shell && make compile
+
+slashes:
+	cd Slashes && make compile
+
+sql:
+	cd SQL && make compile
 
 swift:
-	cd Swift/
-	swiftc Swift.swift
+	cd Swift && make compile
+
+verilog:
+	cd Verilog && make compile

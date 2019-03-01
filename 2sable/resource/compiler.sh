@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 file="$1"
 
 version=$( python3 --version 2>&1 | grep "Python 3.*.*" )
